@@ -1,7 +1,10 @@
 trigger:
 - '*'
 
-pool: Default
+pool:
+  name: 'Default'
+  demands:
+  - npm
 
 variables:
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
